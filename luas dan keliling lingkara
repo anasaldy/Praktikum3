@@ -1,0 +1,18 @@
+print("NAMA    : ANAS ALDI PANGESTU")
+print("NIM     : 312210630")
+print("KELAS   : TI.22.B2")
+print("============================")
+print("PROGRAM MENGHITUNG LUAS DAN KELILING LINGKARAN")
+#r= jari jari lingkaran
+r = int(input("masukan nilai jari-jari lingkaran : "))
+#phi= nilai phi lingkaran
+phi = 3.14
+#d= diameter lingkaran
+d = 2*r
+#l= Luas lingkaran
+l = phi*r*r
+#k= keliling lingkaran
+k = phi*d
+#fungsi %2f yaitu untuk menampilkan angka setelah koma sebanyak 2 angka
+print("Luasnya     = ", str("%.2f" % l))
+print("Kelilingnya = ", str("%.2f" % k))
